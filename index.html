@@ -9,7 +9,6 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./dist/css/main.min.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
     <link
       lang="en"
       rel="stylesheet"
@@ -60,7 +59,6 @@
         </ul>
       </div>
     </header>
-    <a href="./images/svg/input/symbol-defs.svg#icon-user"></a>
     <main>
       <!--контент -->
       <section class="section-service">
@@ -72,89 +70,6 @@
           <button data-modal-open class="link-active-service">
             Заказать услугу
           </button>
-          <div class="backdrop is-hidden" data-modal>
-            <div class="modal">
-              <button class="modal-close" data-modal-close>
-                <svg class="svg-close">
-                  <use href="./images/svg/symbol-defs.svg#close"></use>
-                </svg>
-              </button>
-              <strong class="modal-text"
-                >Оставьте свои данные, мы вам перезвоним</strong
-              >
-              <form class="js-speaker-form" autocomplete="off">
-                <div class="form-field">
-                  <label for="name" class="for-name">Имя</label>
-                  <div class="input-block">
-                    <input
-                      type="text"
-                      class="title-input"
-                      name="name"
-                      id="name"
-                    />
-                    <svg class="input-icon">
-                      <use
-                        href="./images/svg/input/symbol-defs.svg#icon-user"
-                      ></use>
-                    </svg>
-                  </div>
-                </div>
-
-                <div class="form-field">
-                  <label for="tel" class="for-name">Телефон </label>
-                  <div class="input-block">
-                    <input type="tel" class="title-input" name="tel" id="tel" />
-                    <svg class="input-icon">
-                      <use
-                        href="./images/svg/input/symbol-defs.svg#icon-phone"
-                      ></use>
-                    </svg>
-                  </div>
-                </div>
-                <div class="form-field">
-                  <label for="email" class="for-name">Почта</label>
-                  <div class="input-block">
-                    <input
-                      type="email"
-                      class="title-input"
-                      name="email"
-                      id="email"
-                    />
-                    <svg class="input-icon">
-                      <use
-                        href="./images/svg/input/symbol-defs.svg#icon-mail"
-                      ></use>
-                    </svg>
-                  </div>
-                </div>
-                <div class="form-field">
-                  <label for="modal-comment" class="for-lebel">Коментрий</label>
-                  <textarea
-                    class="for-input for-comment"
-                    name="comment"
-                    id="modal-comment"
-                    rows="6"
-                    placeholder="Введите текст"
-                  ></textarea>
-                </div>
-                <div class="form-polici">
-                  <label for="policy" class="policy-lebel">
-                    <input
-                      type="checkbox"
-                      name="policy"
-                      class="chexbox"
-                      checked
-                    />
-                    Соглашаюсь с рассылкой и принимаю
-                    <a href="#" class="current">Условия договора</a>
-                  </label>
-                </div>
-                <button class="bnt-modal primary" type="submit">
-                  Отправить
-                </button>
-              </form>
-            </div>
-          </div>
         </div>
       </section>
       <!--контент 2 -->
@@ -260,7 +175,7 @@
       <!--контент 4 -->
       <section class="section-contentc">
         <div class="container">
-          <div><h2>Наша команда</h2></div>
+          <h2>Наша команда</h2>
           <ul class="team-section">
             <li class="img-team">
               <img src="./images/human2.jpg" width="270" alt="Photo" />
@@ -554,7 +469,7 @@
           <div>
             <ul class="ul-icon">
               <li class="company-iteam-icon">
-                <a class="icon-company" href="" aria-label="yaco">
+                <a class="icon-company" href="#" aria-label="yaco">
                   <svg class="svg-icon">
                     <use
                       href="./images/svg/client/symbol-defs.svg#iconyaco"
@@ -563,7 +478,7 @@
                 </a>
               </li>
               <li class="company-iteam-icon">
-                <a class="icon-company" href="" aria-label="companyteg">
+                <a class="icon-company" href="#" aria-label="companyteg">
                   <svg class="svg-icon">
                     <use
                       href="./images/svg/client/symbol-defs.svg#iconcompanyteg"
@@ -572,7 +487,7 @@
                 </a>
               </li>
               <li class="company-iteam-icon">
-                <a class="icon-company" href="" aria-label="company">
+                <a class="icon-company" href="#" aria-label="company">
                   <svg class="svg-icon">
                     <use
                       href="./images/svg/client/symbol-defs.svg#iconcompany"
@@ -581,7 +496,7 @@
                 </a>
               </li>
               <li class="company-iteam-icon">
-                <a class="icon-company-active" href="" aria-label="foster">
+                <a class="icon-company-active" href="#" aria-label="foster">
                   <svg class="svg-icon-active">
                     <use
                       href="./images/svg/client/symbol-defs.svg#iconfoster"
@@ -590,7 +505,7 @@
                 </a>
               </li>
               <li class="company-iteam-icon">
-                <a class="icon-company" href="" aria-label="brend">
+                <a class="icon-company" href="#" aria-label="brend">
                   <svg class="svg-icon-active">
                     <use
                       href="./images/svg/client/symbol-defs.svg#iconbrend"
@@ -599,7 +514,7 @@
                 </a>
               </li>
               <li class="company-iteam-icon">
-                <a class="icon-company" href="" aria-label="teg">
+                <a class="icon-company" href="#" aria-label="teg">
                   <svg class="svg-icon-active">
                     <use
                       href="./images/svg/client/symbol-defs.svg#iconline"
@@ -698,10 +613,86 @@
               </li>
             </ul>
           </div>
+          <form class="flex fot-sub" autocomplete="off">
+            <label class="fot-sub__label">
+              Подпишись на рассылку
+              <input
+                type="email"
+                name="e-mail"
+                class="fot-sub__input"
+                placeholder="e-mail"
+              />
+            </label>
+            <button type="submit" class="button-pri btn-prim--flex">
+              Подписаться
+            </button>
+            <svg class="fot-sub__icon" width="24" height="24">
+              <use href="./images/svg/fottr/fot-sl/symbol-defs.svg"></use>
+            </svg>
+          </form>
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="modal-close" data-modal-close>
+          <svg class="svg-close">
+            <use href="./images/svg/symbol-defs.svg#close"></use>
+          </svg>
+        </button>
+        <strong class="modal-text"
+          >Оставьте свои данные, мы вам перезвоним</strong
+        >
+        <form class="js-speaker-form" autocomplete="off">
+          <div class="form-field">
+            <label for="name" class="for-name">Имя</label>
+            <div class="input-block">
+              <input type="text" class="title-input" name="name" id="name" />
+              <svg class="input-icon">
+                <use href="./images/svg/input/symbol-defs.svg#icon-user"></use>
+              </svg>
+            </div>
+          </div>
 
+          <div class="form-field">
+            <label for="tel" class="for-name">Телефон </label>
+            <div class="input-block">
+              <input type="tel" class="title-input" name="tel" id="tel" />
+              <svg class="input-icon">
+                <use href="./images/svg/input/symbol-defs.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="email" class="for-name">Почта</label>
+            <div class="input-block">
+              <input type="email" class="title-input" name="email" id="email" />
+              <svg class="input-icon">
+                <use href="./images/svg/input/symbol-defs.svg#icon-mail"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="modal-comment" class="for-lebel">Коментрий</label>
+            <textarea
+              class="for-input for-comment"
+              name="comment"
+              id="modal-comment"
+              rows="6"
+              placeholder="Введите текст"
+            ></textarea>
+          </div>
+          <div class="form-polici">
+            <label for="policy" class="policy-lebel">
+              <input type="checkbox" name="policy" class="chexbox" checked />
+              Соглашаюсь с рассылкой и принимаю
+              <a href="#" class="current">Условия договора</a>
+            </label>
+          </div>
+          <button class="bnt-modal primary" type="submit">Отправить</button>
+        </form>
+      </div>
+    </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
